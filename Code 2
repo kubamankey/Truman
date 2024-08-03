@@ -7200,28 +7200,6 @@
                     },
                     {
                         "model": "campaign_trail.answer_score_state",
-                        "pk": 15307,
-                        "fields": {
-                            "answer": 15300,
-                            "state": 366,
-                            "candidate": 116,
-                            "affected_candidate": 116,
-                            "state_multiplier": 0.03
-                        }
-                    },
-                    {
-                        "model": "campaign_trail.answer_score_state",
-                        "pk": 15308,
-                        "fields": {
-                            "answer": 15300,
-                            "state": 353,
-                            "candidate": 116,
-                            "affected_candidate": 116,
-                            "state_multiplier": 0.03
-                        }
-                    },
-                    {
-                        "model": "campaign_trail.answer_score_state",
                         "pk": 15309,
                         "fields": {
                             "answer": 15300,
@@ -8665,7 +8643,7 @@
           }
         e.pages = ["<FONT COLOR=“000000”><h3>Paradise Lost</h3><p>Once again, you’ve shocked the nation, but not enough to save your presidency. Eisenhower has won, and will be remembered as one of the greatest presidents in the history of the country. His administration won’t be without its fair share of crises, but his management will ensure that he leaves office with great approval ratings.<br><br>However, its not all bad news. Your legacy will be rehabilitated over time, and one day you’ll be seen as one of the nation’s most shrewd presidents, who may have simply been dealt a bad hand.<br><br>You’ve handled the end of WW2 and the early Cold War with grace and dignity, and America will forever thank you. For now, Mr. Truman, enjoy your retirement!</p>", "<FONT COLOR=“000000”><h3>The Years of Joseph McCarthy</h3><p>Respected historian and biographer Robert Caro has released his latest work, The Years of Joseph McCarthy, telling the story of former president McCarthy’s life and legacy.<br><br>McCarthy is one of the most polarizing figures in the country today, as revered by Conservatives as he is reviled by Liberals. Only serving one term before being unseated by Texas Senator Lyndon Johnson, McCarthy oversaw a period of mass hysteria and panic over Communist infiltration in the United States, which culminated in a nasty election against Johnson, described by Caro as “the muddiest in history.”<br>McCarthy’s term also saw a large escalation of hostilities in Vietnam, which will probably prove the most salient part of his legacy, causing the deaths of thousands of Americans in the region.</p>"];
         e.executable.push([0, (() => {e.image = e.image = 'https://i.imgur.com/ADqWtQg.png '})])
-        e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/E7oYIJC.png'})])
+        e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/ADqWtQg.png'})])
       }
     else if (quickstats[0] < 270 && quickstats[0] < 200 && Mac < 1 && Lodge > 0) {
         if (!e.runEnd) {
@@ -8680,8 +8658,8 @@
         e.executable.push([1, (() => {e.image = e.image = 'https://i.imgur.com/JCSss1E.png'})])
     }
     else if (quickstats[0] <= 270 && Mac > 0 && Lodge > 0) {
-        if (!e.runEnd) {
-          var music = new Audio('https://audio.jukehost.co.uk/M6INILePI7cOt5NzjAkfojVUdhHgRDXP');
+        if (!e.runEnd) {t
+          var music = new Audio('https://audio.jukehost.co.uk/QthJZ9vKPKR6Tky5b95SN7EXWHFnW1BD');
           music.loop = true;
           music.volume = 0.5;
           music.play();
@@ -8693,7 +8671,7 @@
       }
     else if (quickstats[0] <= 270 && Mac > 0 && Nixon > 0 && Lodge < 1) {
         if (!e.runEnd) {
-          var music = new Audio('https://audio.jukehost.co.uk/M6INILePI7cOt5NzjAkfojVUdhHgRDXP');
+          var music = new Audio('https://audio.jukehost.co.uk/QthJZ9vKPKR6Tky5b95SN7EXWHFnW1BD');
           music.loop = true;
           music.volume = 0.5;
           music.play();
@@ -8809,7 +8787,7 @@
       }
     else if (quickstats[0] <= 270 && Mac > 0) {
         if (!e.runEnd) {
-          var music = new Audio('https://audio.jukehost.co.uk/M6INILePI7cOt5NzjAkfojVUdhHgRDXP');
+          var music = new Audio('https://audio.jukehost.co.uk/QthJZ9vKPKR6Tky5b95SN7EXWHFnW1BD');
           music.loop = true;
           music.volume = 0.5;
           music.play();
